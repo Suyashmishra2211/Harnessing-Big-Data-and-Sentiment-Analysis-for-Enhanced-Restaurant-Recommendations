@@ -3,7 +3,7 @@
 This project builds a restaurant recommendation system that not only uses customer ratings but also considers the sentiments in reviews. By combining ratings and opinions, it gives more accurate and personalized restaurant suggestions.
 
 2)What We Did-
-Collected and processed over 1 million restaurant reviews.
+Collected and processed over 1 lakh restaurant reviews.
 Used sentiment analysis to check if reviews are positive, neutral, or negative.
 Combined both ratings + sentiments into a single score.
 Recommended Top 10 best restaurants and flagged Bottom 10 least preferred ones.
