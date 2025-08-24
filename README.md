@@ -10,7 +10,7 @@ Recommended Top 10 best restaurants and flagged Bottom 10 least preferred ones.
 
 3)Tools & Technologies-
 Python
-Apache Spark (MLlib)
+Apache Spark (MLlib),
 NLP techniques (TF-IDF, VADER, Tokenizer)
 
 4)Results-
