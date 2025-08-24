@@ -1,20 +1,20 @@
 # Harnessing-Big-Data-and-Sentiment-Analysis-for-Enhanced-Restaurant-Recommendations
-# ENSF 612 Final Project - Movie Sentiment Analysis
-For our final project in ENSF 612 - Engineering Large Scale Data Analytics Systems,
-our team performed sentiment analysis on 50,000 movie reviews, from 
-[Kaggle's IMDB Dataset](https://www.kaggle.com/lakshmi25npathi/sentiment-analysis-of-imdb-movie-reviews/data).
-1,000 reviews were also manually added and labelled by our team.
+1)Project Overview
+This project builds a restaurant recommendation system that not only uses customer ratings but also considers the sentiments in reviews. By combining ratings and opinions, it gives more accurate and personalized restaurant suggestions.
 
-## Methodology
-* Our team used the PySpark library within Databricks. The notebook used for our project can be found in the file: [ENSF612_Final_Project.ipynb](ENSF612_Final_Project.ipynb).
-* Our features vectors we tested included a bag-of-words model, a TF-IDF model, and a Word2Vec model 
-* Classification models we tested included Naïve Bayes, Random Forest, and Decision Tree Classifiers.
-Our detailed report can be found in the file: [ENSF612_Final_Project_Report_GH_AL_JK.pdf](ENSF612_Final_Project_Report_GH_AL_JK.pdf).
-  
-## Contributors
-* [Alex Leakos](https://github.com/aleakos)
-* [Jared Kraus](https://github.com/JaredKraus)
-* [Graydon Hall](https://github.com/GraydonHall42)
-  
+2)What We Did
+Collected and processed over 1 million restaurant reviews.
+Used sentiment analysis to check if reviews are positive, neutral, or negative.
+Combined both ratings + sentiments into a single score.
+Recommended Top 10 best restaurants and flagged Bottom 10 least preferred ones.
 
-"# Movie-Review-Sentiment-Analysis" 
+3)Tools & Technologies
+Python
+Apache Spark (MLlib)
+NLP techniques (TF-IDF, VADER, Tokenizer)
+
+4)Results
+Successfully classified reviews into positive, neutral, and negative.
+Built a recommendation list that is more reliable than rating-only systems.
+
+
